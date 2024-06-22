@@ -3,16 +3,15 @@ title: 'HomeBrewで Warning: ... :macos => :yosemite is deprecated! ...と出た
 tags:
   - Mac
   - homebrew
-  - Mas
+  - MacAppStore
   - Brewfile
 private: false
-updated_at: '2024-06-23T00:05:27+09:00'
-id: c436b14152a3b65d2a2c
+updated_at: '2023-04-18T12:32:40+09:00'
+id: f8a6c9dd6312a5adaf3d
 organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-
 ## はじめに
 
 Macのアプリ環境を整備するためにHomeBrewを使ってBrewfileを作って色々インストールした経緯がある。
