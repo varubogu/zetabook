@@ -51,7 +51,7 @@ CapsLockキーの動作変更はAutoHotKeyでうまくいかないケースが�
 しかしレジストリを直接変更するのはなんとなく嫌なので、KeySwapというソフトで行う
 <macro>
 zenn: "![CapsLockキーの動作変更（KeySwap）](/images/emacs-like-rightkey-autohotkey/2.png)"
-qiita: "(![CapsLockキーの動作変更（KeySwap）](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/432981/0733a0d0-3fc6-c953-bf09-6cb04ab0c91a.png))"
+qiita: "(![CapsLockキーの動作変更（KeySwap）](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/432981/1d41b618-558a-7cbd-6e4e-accf2aceb657.png))"
 </macro>
 
 ### Google日本語入力

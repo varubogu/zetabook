@@ -57,7 +57,7 @@ Mac（JIS配列）ではControlキーの位置となっている。
 CapsLockキーの動作変更はAutoHotKeyでうまくいかないケースがあるらしい。
 確実に置き換えるためにレジストリを変更してキーの割当を変える。
 しかしレジストリを直接変更するのはなんとなく嫌なので、KeySwapというソフトで行う
-(![CapsLockキーの動作変更（KeySwap）](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/432981/0733a0d0-3fc6-c953-bf09-6cb04ab0c91a.png))
+(![CapsLockキーの動作変更（KeySwap）](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/432981/1d41b618-558a-7cbd-6e4e-accf2aceb657.png))
 
 ### Google日本語入力
 
