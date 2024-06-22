@@ -1,0 +1,9 @@
+{
+    "default": true,
+    "MD033": false, 
+    "files": {
+        "ignore": [
+            
+        ]
+    }
+}
