@@ -2,7 +2,7 @@
 title: "HomeBrewで Warning: ... :macos => :yosemite is deprecated! ...と出た"
 emoji: "😗"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["mac", "homebrew", "mas"]
+topics: ["Mac", "HomeBrew", "mas", "Brewfile"]
 published: true
 ---
 
