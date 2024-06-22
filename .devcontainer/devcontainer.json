@@ -1,0 +1,47 @@
+{
+    "name": "zetabook",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "latest"
+        },
+        "ghcr.io/devcontainers/features/rust:1": {
+            "version": "latest"
+        }
+    },
+    "postCreateCommand": "cargo install --git https://github.com/TyomoGit/zeta.git",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.shell.linux": "/bin/bash",
+                "emeraldwalk.runonsave": {
+                    "commands": [
+                        {
+                            "match": "zeta/.*.md",
+                            "cmd": "zeta build ${fileBasenameNoExt}"
+                        }
+                    ]
+                }
+			},
+			"extensions": [
+                "ms-vscode.vscode-node-azure-pack",
+                "rust-lang.rust",
+                "MS-CEINTL.vscode-language-pack-ja",
+                "GitHub.vscode-pull-request-github",
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml",
+                "dbaeumer.vscode-eslint",
+                "serayuzgur.crates",
+                "zenn.zenn-preview",
+                "donjayamanne.githistory",
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "emeraldwalk.RunOnSave",
+                "ICS.japanese-proofreading",
+                "DavidAnson.vscode-markdownlint",
+                "yzhang.markdown-all-in-one"
+            ],
+		}
+	},
+    "remoteUser": "vscode"
+}
