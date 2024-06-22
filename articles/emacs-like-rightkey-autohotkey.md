@@ -1,8 +1,13 @@
 ---
-title: "Mac（というよりEmacs）っぽい操作感とWindowsショートカットを両立してみた"
-emoji: "⌨️"
-type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["AutoHotKey", "Emacs", "Windows", "Google日本語入力", "キーボード"]
+title: Mac（というよりEmacs）っぽい操作感とWindowsショートカットを両立してみた
+emoji: ⌨️
+type: tech
+topics:
+- AutoHotKey
+- Emacs
+- Windows
+- Google日本語入力
+- キーボード
 published: true
 ---
 
