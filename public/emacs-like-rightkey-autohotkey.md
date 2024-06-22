@@ -1,11 +1,11 @@
 ---
 title: Mac（というよりEmacs）っぽい操作感とWindowsショートカットを両立してみた
 tags:
-  - Emacs
-  - Windows
-  - AutoHotkey
-  - Google日本語入力
-  - Keyboard
+- AutoHotKey
+- Emacs
+- Windows
+- Google日本語入力
+- キーボード
 private: false
 updated_at: '2024-06-23T00:35:08+09:00'
 id: 6d462a3b9023f3cdbf4e
@@ -57,7 +57,7 @@ Mac（JIS配列）ではControlキーの位置となっている。
 CapsLockキーの動作変更はAutoHotKeyでうまくいかないケースがあるらしい。
 確実に置き換えるためにレジストリを変更してキーの割当を変える。
 しかしレジストリを直接変更するのはなんとなく嫌なので、KeySwapというソフトで行う
-![CapsLockキーの動作変更（KeySwap）](emacs-like-rightkey-autohotkey-2.png)
+![CapsLockキーの動作変更（KeySwap）](https://github.com/varubogu/zetabook/images/emacs-like-rightkey-autohotkey/2.png)
 
 ### Google日本語入力
 
@@ -74,7 +74,7 @@ CapsLockキーの動作変更はAutoHotKeyでうまくいかないケースが�
 「Henkan」を「ひらがな」に変更
 「Muhenkan」を「IMEを無効化」に変更
 
-![Google日本語入力の設定](emacs-like-rightkey-autohotkey-1.png)
+![Google日本語入力の設定](https://github.com/varubogu/zetabook/images/emacs-like-rightkey-autohotkey/1.png)
 
 ### AutoHotKeyスクリプト
 

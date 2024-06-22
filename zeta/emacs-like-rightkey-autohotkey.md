@@ -49,7 +49,10 @@ Mac（JIS配列）ではControlキーの位置となっている。
 CapsLockキーの動作変更はAutoHotKeyでうまくいかないケースがあるらしい。
 確実に置き換えるためにレジストリを変更してキーの割当を変える。
 しかしレジストリを直接変更するのはなんとなく嫌なので、KeySwapというソフトで行う
-![CapsLockキーの動作変更（KeySwap）](emacs-like-rightkey-autohotkey-2.png)
+<macro>
+zenn: "![CapsLockキーの動作変更（KeySwap）](/images/emacs-like-rightkey-autohotkey/2.png)"
+qiita: "![CapsLockキーの動作変更（KeySwap）](https://github.com/varubogu/zetabook/images/emacs-like-rightkey-autohotkey/2.png)"
+</macro>
 
 ### Google日本語入力
 
@@ -66,7 +69,10 @@ CapsLockキーの動作変更はAutoHotKeyでうまくいかないケースが�
 「Henkan」を「ひらがな」に変更
 「Muhenkan」を「IMEを無効化」に変更
 
-![Google日本語入力の設定](emacs-like-rightkey-autohotkey-1.png)
+<macro>
+zenn: "![Google日本語入力の設定](/images/emacs-like-rightkey-autohotkey/1.png)"
+qiita: "![Google日本語入力の設定](https://github.com/varubogu/zetabook/images/emacs-like-rightkey-autohotkey/1.png)"
+</macro>
 
 ### AutoHotKeyスクリプト
 
