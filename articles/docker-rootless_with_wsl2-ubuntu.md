@@ -54,6 +54,7 @@ wsl.exe -t <対象のディストリビューション名>
 # 全て停止する場合
 wsl.exe -shutdown
 ```
+
 ※Windows、WSLのどちらでも実行可。Windows側の場合は「.exe」は省略可能。
 
 対象のディストリビューション名を調べる方法は
@@ -298,12 +299,11 @@ Cloudflare DNS（1.1.1.1）にDockerHubのURLについて尋ねて応答があ�
 rootじゃなくなったからといってセキュリティの問題が全て解決するわけではないので、どこの誰が作ったかもわからないようなイメージを実行したりしないよう注意は必要。
 あくまでもセキュリティ上の懸念の1つが解消しただけ。
 
-
 もし、これを使っていく上でまたトラブルがあったら追記します。
 
 ## 参考にした記事
 
-https://k-hyoda.hatenablog.com/entry/2020/09/20/235346
-https://e-penguiner.com/rootless-docker-for-nonroot/
-https://qiita.com/shigeokamoto/items/f09d6fead8d99bbf4e3b
-https://github.com/microsoft/WSL/issues/7466
+<https://k-hyoda.hatenablog.com/entry/2020/09/20/235346>
+<https://e-penguiner.com/rootless-docker-for-nonroot/>
+<https://qiita.com/shigeokamoto/items/f09d6fead8d99bbf4e3b>
+<https://github.com/microsoft/WSL/issues/7466>

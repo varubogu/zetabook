@@ -1,11 +1,11 @@
 ---
 title: Mac（というよりEmacs）っぽい操作感とWindowsショートカットを両立してみた
 tags:
-  - Emacs
-  - Windows
-  - AutoHotkey
-  - Google日本語入力
-  - Keyboard
+- AutoHotKey
+- Emacs
+- Windows
+- Google日本語入力
+- キーボード
 private: false
 updated_at: '2024-06-23T00:05:26+09:00'
 id: 6d462a3b9023f3cdbf4e
@@ -13,8 +13,6 @@ organization_url_name: null
 slide: false
 ignorePublish: false
 ---
-
-# Mac（というよりEmacs）っぽい操作感とWindowsショートカットを両立してみた
 
 ## はじめに
 
@@ -83,16 +81,12 @@ CapsLockキーの動作変更はAutoHotKeyでうまくいかないケースが�
 今回AutoHotKeyのスクリプトは自作した。
 先駆者は結構いるのだが、2022年にAutoHotKeyのバージョンがv2に上がっており、せっかくだし自分で１から作成し直すことにした。
 修正したものについてはGitHubに公開している。
-
-https://github.com/varubogu/emacs-like-rightkey.ahk
-
+<https://github.com/varubogu/emacs-like-rightkey.ahk>
 
 ### Emacsキーバインド
 
 Emacsのキーバインドは以下の通りに設定。
-
-https://github.com/varubogu/emacs-like-rightkey.ahk/blob/main/README.ja.md
-
+<https://github.com/varubogu/emacs-like-rightkey.ahk/blob/main/README.ja.md>
 
 ## 余談①他キーを割り当てる方法もある
 
