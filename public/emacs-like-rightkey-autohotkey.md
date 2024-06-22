@@ -1,13 +1,13 @@
 ---
 title: Mac（というよりEmacs）っぽい操作感とWindowsショートカットを両立してみた
 tags:
-- AutoHotKey
-- Emacs
-- Windows
-- Google日本語入力
-- キーボード
+  - Emacs
+  - Windows
+  - AutoHotkey
+  - Google日本語入力
+  - Keyboard
 private: false
-updated_at: '2024-06-23T00:05:26+09:00'
+updated_at: '2024-06-23T00:35:08+09:00'
 id: 6d462a3b9023f3cdbf4e
 organization_url_name: null
 slide: false

@@ -1,13 +1,13 @@
 ---
 title: WSL2のUbuntuでrootless-dockerを動かす
 tags:
-- WSL2
-- Linux
-- Windows
-- Ubuntu
-- Docker
+  - Windows
+  - Linux
+  - Ubuntu
+  - Docker
+  - WSL2
 private: false
-updated_at: '2024-06-22T23:56:18+09:00'
+updated_at: '2024-06-23T00:35:07+09:00'
 id: edc09637d5e613a4f4b6
 organization_url_name: null
 slide: false
