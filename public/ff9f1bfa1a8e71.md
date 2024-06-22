@@ -1,12 +1,12 @@
 ---
 title: 'HomeBrewで Warning: ... :macos => :yosemite is deprecated! ...と出た'
 tags:
-- mac
-- homebrew
-- mas
+  - Mac
+  - homebrew
+  - Mas
 private: false
-updated_at: ''
-id: ''
+updated_at: '2024-06-22T23:56:19+09:00'
+id: c436b14152a3b65d2a2c
 organization_url_name: null
 slide: false
 ignorePublish: false
