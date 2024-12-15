@@ -3,7 +3,7 @@
 [Zeta](https://github.com/TyomoGit/zeta) を使用してQiitaとZennの記事管理を行うためのDev Containerです。
 
 使用したい方は下記のリポジトリをfork、あるいはdevcontainerだけをコピーして環境を構築してください。（このリポジトリからforkしないでください）
-<https://github.com/varubogu-organization/zetabook>
+<[https://github.com/varubogu-organization/zeta_contaienr](https://github.com/varubogu-organization/zeta_container)>
 
 必要なものは下記になります。
 
