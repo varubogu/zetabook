@@ -1,10 +1,10 @@
 ---
 title: 'HomeBrewで Warning: ... :macos => :yosemite is deprecated! ...と出た'
 tags:
-  - Mac
-  - homebrew
-  - Mas
-  - Brewfile
+- Mac
+- HomeBrew
+- mas
+- Brewfile
 private: false
 updated_at: '2024-06-23T00:30:07+09:00'
 id: f8a6c9dd6312a5adaf3d
@@ -34,7 +34,7 @@ Please report this issue to the argon/mas tap (not Homebrew/brew or Homebrew/hom
 
 ## 用語
 
-* yosemite→MacOS Xの名前らしい
+* yosemite→macOSのコードネーム（?）らしい
 * mas→App Store上のアプリをパッケージ管理できるやつ
 
 つまりはMac App Storeをパッケージ管理できるmasモジュールが古いOSの何かを使っており、それがある時から非推薦となった。

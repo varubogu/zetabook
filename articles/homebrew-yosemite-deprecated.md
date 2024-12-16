@@ -31,7 +31,7 @@ Please report this issue to the argon/mas tap (not Homebrew/brew or Homebrew/hom
 
 ## 用語
 
-* yosemite→MacOS Xの名前らしい
+* yosemite→macOSのコードネーム（?）らしい
 * mas→App Store上のアプリをパッケージ管理できるやつ
 
 つまりはMac App Storeをパッケージ管理できるmasモジュールが古いOSの何かを使っており、それがある時から非推薦となった。
