@@ -1,8 +1,8 @@
 ---
 title: Windows環境でZedをビルドして使う
 tags:
-  - Windows
-  - zod
+- Zed
+- Windows
 private: false
 updated_at: '2024-06-29T02:27:59+09:00'
 id: f0d96fc6936732e47668
@@ -13,7 +13,7 @@ ignorePublish: false
 
 ## はじめに
 
-最近話題にあがるようになった軽量エディタであるZedは、現在Mac版のみの提供である。
+最近話題にあがるようになった軽量エディターであるZedは、現在Mac版のみの提供である。
 しかし公式には提供されていないもののオープンソースかつクロスプラットフォーム対応なので自分でビルドすればWindowsやLinuxでも使うことができる。
 
 公式にWindows向けのビルド方法が書いてあるのでそれを見ながらやっていく。
@@ -39,7 +39,7 @@ ZedはRustで記述されているため、まずはRustのインストールを
 <https://www.rust-lang.org/ja/tools/install>
 
 パッケージ管理ツールを使っている方はそちらからインストールでも良い。
-例えばwingetを使っているなら以下のコマンドを打つ。
+たとえばwingetを使っているなら以下のコマンドを打つ。
 
 ```ps1
 winget install Rustlang.Rustup
@@ -65,7 +65,7 @@ Visual Studio Installerの画面で追加コンポーネントを選ぶことが
 
 #### Build Tools for Visual Studioを使う場合
 
-VisualStudioを入れる余裕がない人の選択肢がこちら。
+Visual Studioを入れる余裕がない人の選択肢がこちら。
 
 下記からインストールできる
 <https://visualstudio.microsoft.com/ja/visual-cpp-build-tools/>
@@ -113,14 +113,14 @@ targets = [ "stable-x86_64-pc-windows-msvc" ]
 cargo build --release
 ```
 
-ビルド終了後、リポジトリのある位置から `target/release/` といけば本体のzod.exeファイルがある。
+ビルド終了後、リポジトリのある位置から `target/release/` といけば本体のzed.exeファイルがある。
 これを好きな位置に配置して実行しよう。
 
-![zod.exe](https://raw.githubusercontent.com/varubogu/zetabook/main/images/zed-windows-build/image-1.png)
+![zed.exe](https://raw.githubusercontent.com/varubogu/zetabook/main/images/zed-windows-build/image-1.png)
 
 これで完了。
 
-## Zodの感想
+## Zedの感想
 
 まずビルドしての感想。
 Windowsビルドの難易度は全然高くないと思った。
@@ -129,15 +129,15 @@ Windowsビルドの難易度は全然高くないと思った。
 
 次にZed自体の感想。
 起動時間がマジで早い。
-サクラエディタより若干遅いが1秒かからず起動。
-VSCodeより起動が早いのでササッとコード確認したいときには便利。
+サクラエディターより若干遅いが1秒かからず起動。
+VS Codeより起動が早いのでササッとコード確認したいときには便利。
 
-## 余談：サクラエディタとメモリ使用量を比較してみた
+## 余談：サクラエディターとメモリ使用量を比較してみた
 
-Zod 174.1MB
+Zed 174.1MB
 <https://x.com/varubogu_tysk/status/1806462060324425980>
 
-サクラエディタ 3.4MB
+サクラエディター 3.4MB
 <https://x.com/varubogu_tysk/status/1806435538326749320>
 
-あれ、もしかしてサクラエディタすごい・・・？
+あれ、もしかしてサクラエディターすごい・・・？
