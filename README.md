@@ -16,7 +16,8 @@
 devcontainerをビルドする時にNodejs、Cargo、Zetaの最新版のインストールを自動的に行います。
 なので、VS Codeなどで「.devcontainerディレクトリ」のあるディレクトリを開き、そこからDev Containerとして開けば準備がほぼ整います。
 あとはお好みで拡張機能をインストールしてください。筆者が使っている拡張機能は".devcontainer/devcontainer.json"に設定としていれてあります。
-[zetaの紹介記事](https://code.visualstudio.com/docs/devcontainers/containers)にある通り、Run On Saveという拡張機能も推薦拡張機能としており、設定は".vscode/settings.json"に入っているため拡張機能を入れるだけで使えます。
+[zetaの紹介記事](https://code.visualstudio.com/docs/devcontainers/containers)にある通り、
+Run On Saveという拡張機能も推薦拡張機能としており、設定は".vscode/settings.json"に入っているため拡張機能を入れるだけで使えます。
 
 ## 注意点
 
