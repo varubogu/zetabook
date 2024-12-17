@@ -1,13 +1,13 @@
 ---
 title: Tauri(Rust)、Qwik、Bunを使って爆速なクロスプラットフォームアプリ（デスクトップ、スマホ、Web）を作る（環境構築編）
 tags:
-- Tauri
-- Rust
-- Qwik
-- TypeScript
+  - Rust
+  - TypeScript
+  - Tauri
+  - Qwik
 private: false
-updated_at: ''
-id: ''
+updated_at: '2024-12-18T04:32:07+09:00'
+id: bee474d9e7e3da4ca69d
 organization_url_name: null
 slide: false
 ignorePublish: false
