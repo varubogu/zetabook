@@ -1,0 +1,18 @@
+{
+	"zeta-markdown-frontmatter": {
+		"scope": "markdown",
+		"prefix": "zeta:frontmatter",
+		"body": [
+			"---",
+			"title: '$1'",
+			"emoji: '$2'",
+			"type: ${3|tech,idea|}",
+			"topics: [$4]",
+			"qiita_id: ''",
+			"published: true",
+			"---",
+			"",
+		],
+		"description": "Zeta Markdownのフロントマターを挿入します"
+	}
+}
