@@ -1,8 +1,8 @@
 ---
 title: Windows環境でZedをビルドして使う
 tags:
-  - Windows
-  - ZED
+- Zed
+- Windows
 private: false
 updated_at: '2024-12-16T12:57:40+09:00'
 id: f0d96fc6936732e47668
