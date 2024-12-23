@@ -1,14 +1,14 @@
 ---
 title: Dev containerでの1Password SSH Agentを使ったコミット署名時のエラーを対処する
 tags:
-- devcontainer
-- sign
-- 1Password
-- ssh
-- gpg
+  - SSH
+  - gpg
+  - 1Password
+  - sign
+  - devcontainer
 private: false
-updated_at: ''
-id: ''
+updated_at: '2024-12-23T16:26:25+09:00'
+id: 5b3014871b0a71fe8cc4
 organization_url_name: null
 slide: false
 ignorePublish: false
