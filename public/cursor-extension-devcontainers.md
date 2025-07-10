@@ -1,12 +1,12 @@
 ---
 title: CursorでMS製DevContainerがインストールできなくなったので代替方法を探す
 tags:
-- cursor
-- devcontainer
-- ms-devcontainer
+  - cursor
+  - devcontainer
+  - ms-devcontainer
 private: false
-updated_at: ''
-id: ''
+updated_at: '2025-07-10T21:06:31+09:00'
+id: 418dfdba8405a83a91dc
 organization_url_name: null
 slide: false
 ignorePublish: false
