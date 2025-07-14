@@ -5,7 +5,7 @@ type: tech
 topics:
 - 1Password
 - SSH
-- SSH Agent
+- SSHAgent
 - 生体認証
 published: true
 ---

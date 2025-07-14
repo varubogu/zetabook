@@ -3,7 +3,7 @@ title: 【2025年7月最新版】1PasswordのSSHエージェントを設定す�
 tags:
 - 1Password
 - SSH
-- 'SSH Agent'
+- SSHAgent
 - 生体認証
 private: false
 updated_at: ''

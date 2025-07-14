@@ -2,7 +2,7 @@
 title: '【2025年7月最新版】1PasswordのSSHエージェントを設定する'
 emoji: 🔑
 type: tech
-topics: ['1Password', 'SSH', 'SSH Agent', '生体認証']
+topics: ['1Password', 'SSH', 'SSHAgent', '生体認証']
 qiita_id: ''
 published: true
 ---
