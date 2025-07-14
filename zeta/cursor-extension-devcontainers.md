@@ -3,7 +3,7 @@ title: 'CursorでMS製DevContainerがインストールできなくなったの�
 emoji: 😢
 type: tech
 topics: ['cursor', 'devcontainer', 'ms-devcontainer']
-qiita_id: ''
+qiita_id: '418dfdba8405a83a91dc'
 published: true
 ---
 

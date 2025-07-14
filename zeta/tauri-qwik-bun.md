@@ -3,7 +3,7 @@ title: 'Tauri(Rust)、Qwik、Bunを使って爆速なクロスプラットフォ
 emoji: 'rust'
 type: tech
 topics: ['Tauri', 'Rust', 'Qwik', 'TypeScript']
-qiita_id: ''
+qiita_id: 'bee474d9e7e3da4ca69d'
 published: true
 ---
 
