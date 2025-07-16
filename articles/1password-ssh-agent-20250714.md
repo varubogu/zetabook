@@ -23,6 +23,7 @@ published: true
 ## 今回は説明しないこと
 
 - SSHと鍵に関する基本的なこと（使い方、鍵ファイルの種類、コマンドなど）
+- Gitのコミット署名にSSHを用いるやり方
 
 ## 1PasswordのSSHエージェントとは
 
@@ -184,17 +185,34 @@ SSHキーが少ないうちは良いですが、様々なサーバーを管理�
 以前はこの問題に対して、公開鍵の設置＋SSHの設定ファイル（`~/.ssh/config`）に以下のような設定を追加することで解決していました。
 
 ```txt
+Host *
+  # Windowsで1PasswordのSSHエージェントを使う設定
+  IdentityAgent \\.\pipe\openssh-ssh-agent
+  # Macで1PasswordのSSHエージェントを使う設定
+  IdentityAgent ~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock
+  # その他Linuxなどで1PasswordのSSHエージェントを使う設定
+  IdentityAgent ~/.1password/agent.sock
+
+# 接続したいサーバー情報
 Host example.com
   HostName example.com
   User varubogu
-  IdentityFile ~/.ssh/id_rsa_example.pub # 公開鍵のパス
+  # 公開鍵のパス
+  IdentityFile ~/.ssh/id_rsa_example.pub
+  # IdentityAgentに移譲する設定（!!「Host *」に書くのは危険なので個別ホストごとにやること!!）
   ForwardAgent yes
 ```
 
-まず前提として、1つの接続先（SSHキー）ごとに秘密鍵と公開鍵が対になっています。
+まずホストに対して使用するエージェントのパスを「IdentityAgent」で定義します。
+Windowsであればパイプ、Windows以外であればソケットを使って定義します。
+
+次に1つの接続先（SSHキー）ごとに定義しますが、SSHキーは秘密鍵と公開鍵が対になっています。
 そのうちホストに対する公開鍵を指定しておくことで、それを目印として1Password内を検索し、1Passwordの公開鍵情報から該当する鍵を抽出することで今までは検出していました。
 しかし欠点として、接続先が増えるたびに手動で`~/.ssh/config`を編集する必要がありました。（1Passwordを使わない場合はそれが当たり前でしたが）
 1PasswordのSSHエージェントが改良されてsshのconfigが自動的に作られるようになったされたことで、この方法は不要になりました。
+今は「~/.ssh/1Password/config」をincludeするだけで良くなりました。
+ちなみにincludeの後に「Host *」とか書くと上書きされてしまうので注意しましょう。
+※ssh configは後から定義されたもので上書きされる
 
 ### WSL環境でも対して手間なく使えるようになった
 
