@@ -19,6 +19,9 @@ published: true
 今回はインストーラーを作成する形式ではなくexeを直接生成するやり方である。
 また、この流れで発生するいかなる事象について、私は一切の責任を負えないことを了承のうえで実行してほしい。
 
+2025/08/03追記：
+ZedのWindowsビルドにSpectre軽減ライブラリというのが必要になったようなのでそれについて記載しました。
+
 ## 環境
 
 - OS: Windows11 x64
@@ -60,6 +63,12 @@ Visual Studio Installerの画面で追加コンポーネントを選ぶことが
 「MSVC」が必要になるのでそれを選んでインストールしよう。
 ![Visual Studio Installer](/images/zed-windows-build/image.png)
 
+2025/08/03追記：
+ZedのWindowsビルドにSpectre軽減ライブラリというのが必要になったようです。
+「個別のコンポーネント」タブから「MSVC」で検索し、CPUアーキテクチャに応じたもので最新のものを選択してインストールしてください。
+![alt text](image.png)
+![spectre対策版が必須](/images/zed-windows-build/require-spectre.png)
+
 #### Build Tools for Visual Studioを使う場合
 
 Visual Studioを入れる余裕がない人の選択肢がこちら。
@@ -72,6 +81,10 @@ Visual Studioを入れる余裕がない人の選択肢がこちら。
 ```ps1
 winget install Microsoft.VisualStudio.2022.BuildTools
 ```
+
+2025/08/03追記：
+ZedのWindowsビルドにSpectre軽減ライブラリというのが必要になったようです。
+Visual Studioと違い、こちらに関しては調査はしていないため各自でインストールお願いします。
 
 ### wasmツールチェインのインストール
 
